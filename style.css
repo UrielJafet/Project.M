@@ -186,22 +186,31 @@ p {
 
 
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 900px) {
+   
+    header{
+        flex-direction: column;
+    }
+    
     .title {
         margin-bottom: 0;
         font-size: 40px;
         height: auto;
     }
 
-    .sau {
-        height: 100vh;
+    .content{
+        height: auto;
         width: auto;
+    }
+
+    .about{
+        padding: 20px;
+    }
+    
+    .price{
+        padding: 20px;
     }
 
     .navbar {
         display: none;
-    }
-   
-    
 }
